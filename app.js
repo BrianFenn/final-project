@@ -7,7 +7,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-//[SH] Require Passport     //we are using Passport to authenicate the user's login so this will modify express's set-up
+//[SH] Require Passport     //we are using Passport to authenticate the user's login so this will modify express's set-up
 var passport = require('passport');
 
 //[SH] We will need to import the data model for the users 
